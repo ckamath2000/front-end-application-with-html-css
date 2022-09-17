@@ -1,0 +1,285 @@
+html,body {
+    height: 100%;
+}
+*
+{
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+    font-family: "Century-Gothic",sans-serif;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+.navlist
+{   
+    width:100%; 
+    padding: 5px 10vw;
+    position: fixed;
+    background: rgb(18, 18, 39);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 300;
+    height: 30px;
+}
+.navlist ul
+{
+    display:flex;
+    list-style:none;
+}
+.navlist ul li:first-child
+{
+    flex:1;
+}
+.navlist ul li h4{
+    font-family:serif;
+    color: white;
+}
+.navlist ul li a{
+    margin-left:20px;
+    font-size: 12px;
+}
+.navlist ul li a:hover{
+ color:orange;
+}
+
+div img {
+    width:80px;
+    height: 80px;
+    
+}
+.container
+{ position: relative;
+    width: 100%;
+    height: 80vh;
+    padding-top: 30vh;
+    background-image:linear-gradient(#000000c3,#000000c3),url(aiet4.jpeg)   ;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    
+}
+
+.container h1
+{
+    font-family: serif;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+
+}
+.container p
+{
+    
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.container button{
+    padding:10px;
+    background: none;
+    border: 1px solid orange;
+}
+.container button:hover{
+
+    background: orange;
+}
+.context-box
+{ 
+    width:80%;
+    margin:auto;
+}
+.content-box .row
+{
+    display:flex;
+}
+.content-box .column
+{
+width:32%;
+height: auto;
+margin: 20px;
+position: relative;
+}
+.content-box>h2
+{
+ text-align: center;
+ color:orange;
+ margin: 20px;
+}
+.content-box>h2::before,.content-box>h2::after
+{
+    content: "--------";
+    letter-spacing: -5px;
+    margin:0 10px;
+   
+}
+.content-box img
+{
+width:100%;
+height:100%;
+/* padding-left: 30px;  */
+
+}
+.content-box .column a:last-child
+{
+position: absolute;
+width: 100%;
+height:0;
+ top:0;
+left: 0;
+bottom: 0;
+background: #ff8800c3;
+text-align: center;
+line-height: 24vw;
+font-size:larger;
+
+}
+.content-box .column:hover a:last-child
+{
+    height:100%;
+   
+}
+.about
+{ 
+    width:100%;
+    margin:30px;
+   
+}
+.about h2 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 0;
+    padding: 0;
+    color: #de3c44;
+    margin-bottom: 15px;
+
+    text-align: justify center;
+}
+.about p
+{
+    text-align: justify center;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .about iframe  
+{
+    float:right;
+    padding-right: 20px;
+} 
+.navlist ul li img
+{
+    width:20px;
+    height:20px;
+    
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 22px;
+    text-decoration: none;
+    display: block;
+  }
+  
+   .dropdown-content a:hover {background-color: #f1f1f1}
+  
+   .dropdown:hover .dropdown-content { 
+    display: block;
+   }  
+  .dropdown-content
+  {
+      display: none;
+      position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  
+  }
+  h5 {
+    color: #14194e;
+    font-size: 1.6rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px; 
+    text-transform: uppercase;
+  } 
+  .training p 
+  { 
+
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center ;
+    line-height: 40px;
+  }
+  .training img  
+  {
+      float:left;
+      padding-left: 10px;
+      width: 430px;
+      height: 428px;
+     
+  } 
+  .review
+  {  border: 1 px solid black;
+      height: 500px;
+      width:1500px;
+      padding-left: 20px;
+      background-color: pink;
+      
+  }
+  .feedback h2 
+  {
+      text-align: center;
+      color: red;  
+      font-size:30px;
+      text-transform: uppercase;
+
+  } 
+  .review img
+  {   
+      height: 420px;
+      width: 420px; 
+       margin-top: 50px; 
+      margin-left: 20px;
+      float:left;
+     
+  }
+  .review p
+  {
+    
+    font-size: xx-large;
+    color: aliceblue;
+    text-align: justify ;
+  
+    font-style: italic;
+  }
+.text{
+   
+    width: 650px;
+    height: 450px;
+    margin-left:500px; 
+}
+.footer
+{
+width: 100%;
+padding: 100px 15%;
+background: rgb(42, 42, 42);
+color:whitesmoke;
+display: flex;
+}
+.footer div
+{
+    text-align: center;
+} 
+.footer div h3
+{
+    font: weight 300px;
+}
+.col-2
+{
+    flex-grow: 2;
+}
+ 
+  
